@@ -1,4 +1,4 @@
-********** JAVASCRIPT **********
+********** #JAVASCRIPT **********
 
 
 i. Write a program that takes three arguments prob, prize, pay and returns true if prob * prize > pay; otherwise return false.
