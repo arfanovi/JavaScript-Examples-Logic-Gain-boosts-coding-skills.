@@ -24,3 +24,22 @@ function main(input) {
 };
 
 main("10 30")
+
+
+
+
+
+// Example 3: 
+
+function main(input){
+
+    let [mass, velocity] = input.split(' ').map(Number);
+    let kineticEnergy = 0.5 * mass * velocity * velocity;
+    let roundedKE = Math.round(kineticEnergy);
+
+    console.log(roundedKE)
+};
+
+main("70.5 12.3")
+
+
